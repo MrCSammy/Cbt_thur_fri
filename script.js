@@ -1,8 +1,8 @@
 var pos = 0, test, test_status, questions,  choice, choices, chA, chB, chC, correct = 0; 
 	var questions = [
-		["Am I Handsome?", "Yes, Very Very", "You still dey try sha", "Not at all", "A" ],
-		["How old am I?", "19", "18", "17", "A"],
-		["What is my Hobby?", "Looking for trouble", "Reading", "Saying Nonsense", "A"],
+		["HTML stands for?", "HYPER TEXT MARKUP LANGUAGE", "HYPER TERMS MARKER LANGUAGE", "HYPER TEXT MARKPOP LANGUAGE", "A" ],
+		["What is the Doctype tag used for?", "Specifying the document type", "Documenting types", "Typing specified Documents", "A"],
+		["Which of these is not correct?", "<head>...<|head>", "<head>...</head>", "<style>...</style>", "A"],
 		["Where do I stay?", "Lagos", "Kaduna", "Abuja", "A"],
 		["Which of these do I do best", "Eat", "Read", "Fight", "A"],
 		["How Good am I as a friend?", "Bad", "Very Good", "Worst  of all", "B"],
@@ -51,3 +51,4 @@ var pos = 0, test, test_status, questions,  choice, choices, chA, chB, chC, corr
 		renderQuestion();
 	}
 	window.addEventListener("load", renderQuestion, false);
+
